@@ -68,6 +68,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),*/
       body: Column(
+        // for initial base of the app
         children: <Widget>[
           Expanded(
             child: Container(
@@ -243,6 +244,5 @@ class _HomePageState extends State<HomePage> {
     double eval = exp.evaluate(EvaluationType.REAL, cm);
 
     userAnswer = eval.toString();
-    
   }
 }
