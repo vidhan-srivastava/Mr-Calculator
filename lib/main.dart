@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           Expanded(
             child: Container(
-              color: const Color.fromARGB(255, 1, 0, 0),
+              color: const Color.fromARGB(255, 0, 0, 0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
